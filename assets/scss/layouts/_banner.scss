@@ -1,0 +1,104 @@
+.multy-store-banner-section-wrapper {
+    width: 100%;
+    
+    .multy-store-bg-item {
+        width: 100%;
+
+        .multy-bg-img {
+            height: 100vh;
+            width: 100%;
+            object-fit: cover;
+            filter: brightness(40%);
+        }
+
+        .multy-store-card-wrapper{
+            position: absolute;
+            top: 20rem;
+            left: 20rem;
+            height: 60%;
+            width: 27%;
+            background-color: rgba(0, 0, 0, 0.966);
+            clip-path: polygon(70% 0, 100% 38%, 100% 100%, 0 100%, 0 0);
+    
+            .card-text-wrap {
+                display: grid;
+                margin-top: 6rem;
+                padding: 4rem;
+            }
+    
+            .card-text {
+                color: #fff;
+                font-size: 1.5rem;
+                font-weight: 300;
+                text-transform: uppercase;
+                padding-bottom: 1.5rem;
+    
+            }
+    
+            .big-title {
+                font-size: 3.5rem;
+                font-weight: 800;
+                color: #fff;
+                text-transform: uppercase;
+            }
+    
+            .line {
+                width: 40px;
+                height: 10px;
+                background-color: yellow;
+                margin-top: 2rem;
+    
+            }
+    
+            .paragraph {
+                margin-top: 3rem;
+                color: #fff;
+                font-size: 1.3rem;
+                font-weight: 300;
+                letter-spacing: .2px;
+            }
+    
+            .next-arrow {
+                float: right;
+            }
+    
+            .fa-arrow-right {
+                color: #fff;
+                font-size: 2rem;
+                cursor: pointer;
+                padding: 1rem 6rem;
+            }
+        }
+    }
+
+    .slick-dots {
+        position: absolute;
+        left: 70rem;
+        bottom: 2rem;
+        display: flex;
+
+        li {
+            list-style: none;
+            display: inline-flex;
+            margin: 0 3px;
+
+
+            button{
+                width: 1.3rem;
+                height: 3rem;
+                cursor: pointer;
+                color: transparent;
+                background-color: rgb(255, 255, 255);
+                border: none;
+                outline: none;
+                transition: height .5s ease-in-out;
+            }
+           &.slick-active {
+                button{
+                    background-color: rgb(238, 241, 12);
+                    height: 4rem;
+                }
+            }
+        }
+    }
+}

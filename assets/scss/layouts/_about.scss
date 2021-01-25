@@ -1,0 +1,14 @@
+.multy-store-about-container{
+    height: 70rem;
+    width: 100%;
+    background-color: #ecf0f1;
+    position: relative;
+
+    .multy-store-about-section-wrapper{
+        width: 30%;
+        height: 30%;
+        position: absolute;
+        background-color: #fff;
+        top: 10rem;
+    }
+}

@@ -1,0 +1,119 @@
+.multy-store-site-header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+
+    .multy-store-header {
+        display: flex;
+        justify-content: space-between;
+        padding: 3rem 5rem;
+
+        .site-branding {
+            .site-title {
+                font-size: 3rem;
+                text-transform: uppercase;
+                color: #fff;
+            }
+        }
+
+        .multy-store-navigation {
+            display: flex;
+            align-items: center;
+
+            .multy-store-main-menu {
+
+                .navigation {
+                    display: flex;
+                    position: relative;
+
+                    .menu-item {
+                        display: inline-block;
+                        margin: 0 1rem;
+
+                        a {
+                            font-size: 1.5rem;
+                            font-weight: 600;
+                            color: #fff;
+                            text-transform: uppercase;
+                            letter-spacing: 1px;
+                        }
+
+                        .sub-menu {
+                            display: none;
+                            position: absolute;
+                            top: 2rem;
+                            width: 220px;
+                            background-color: rgba(0, 0, 0, 0.699);
+                            padding: 1rem 0;
+                            text-align: center;
+
+                            .menu-item {
+                                padding: 1rem 0;
+
+                                a {
+                                    padding: 1rem 1.5rem;
+
+                                    &:hover {
+                                        background-color: #f1c40f;
+                                        color: rgb(20, 19, 19);
+                                        transition: all .3s ease;
+                                    }
+                                }
+                            }
+                        }
+
+                        :hover {
+                            color: #f1c40f;
+                            transition: color .3s ease-in-out;
+                        }
+
+                    }
+                }
+
+                .navigation .menu-item:hover>.sub-menu {
+                    display: block;
+                }
+            }
+
+            .multy-store-search-icons i {
+                font-size: 1.8rem;
+                margin-left: 2rem;
+                color: #fff;
+
+                &:hover {
+                    color: #f1c40f;
+                    transition: color .3s ease-in-out;
+                }
+            }
+
+            .multy-store-separator {
+                width: .5rem;
+                height: 3.5rem;
+                background-color: rgba(255, 255, 255, 0.596);
+                margin: 0 3rem;
+            }
+
+            .language-switcher {
+                height: 30px;
+                width: 30px;
+
+                .country-img {
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 30px;
+                    border: 2px solid #fff;
+                    object-fit: cover;
+
+                    &:hover {
+                        border: 2px solid #f1c40f;
+                        transition: all .3s ease-in-out;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+

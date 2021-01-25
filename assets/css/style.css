@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap");
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.multy-store-site-header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.multy-store-site-header .multy-store-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 5rem;
+}
+.multy-store-site-header .multy-store-header .site-branding .site-title {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+.multy-store-site-header .multy-store-header .multy-store-navigation {
+  display: flex;
+  align-items: center;
+}
+.multy-store-site-header .multy-store-header .multy-store-navigation .multy-store-main-menu .navigation {
+  display: flex;
+  position: relative;
+}
+.multy-store-site-header .multy-store-header .multy-store-navigation .multy-store-main-menu .navigation .menu-item {
+  display: inline-block;
+  margin: 0 1rem;
+}
+.multy-store-site-header .multy-store-header .multy-store-navigation .multy-store-main-menu .navigation .menu-item a {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.multy-store-site-header .multy-store-header .multy-store-navigation .multy-store-main-menu .navigation .menu-item .sub-menu {
+  display: none;
+  position: absolute;
+  top: 2rem;
+  width: 220px;
+  background-color: rgba(0, 0, 0, 0.699);
+  padding: 1rem 0;
+  text-align: center;
+}
+.multy-store-site-header .multy-store-header .multy-store-navigation .multy-store-main-menu .navigation .menu-item .sub-menu .menu-item {
+  padding: 1rem 0;
+}
+.multy-store-site-header .multy-store-header .multy-store-navigation .multy-store-main-menu .navigation .menu-item .sub-menu .menu-item a {
+  padding: 1rem 1.5rem;
+}
+.multy-store-site-header .multy-store-header .multy-store-navigation .multy-store-main-menu .navigation .menu-item .sub-menu .menu-item a:hover {
+  background-color: #f1c40f;
+  color: #141313;
+  transition: all 0.3s ease;
+}
+.multy-store-site-header .multy-store-header .multy-store-navigation .multy-store-main-menu .navigation .menu-item :hover {
+  color: #f1c40f;
+  transition: color 0.3s ease-in-out;
+}
+.multy-store-site-header .multy-store-header .multy-store-navigation .multy-store-main-menu .navigation .menu-item:hover > .sub-menu {
+  display: block;
+}
+.multy-store-site-header .multy-store-header .multy-store-navigation .multy-store-search-icons i {
+  font-size: 1.8rem;
+  margin-left: 2rem;
+  color: #fff;
+}
+.multy-store-site-header .multy-store-header .multy-store-navigation .multy-store-search-icons i:hover {
+  color: #f1c40f;
+  transition: color 0.3s ease-in-out;
+}
+.multy-store-site-header .multy-store-header .multy-store-navigation .multy-store-separator {
+  width: 0.5rem;
+  height: 3.5rem;
+  background-color: rgba(255, 255, 255, 0.596);
+  margin: 0 3rem;
+}
+.multy-store-site-header .multy-store-header .multy-store-navigation .language-switcher {
+  height: 30px;
+  width: 30px;
+}
+.multy-store-site-header .multy-store-header .multy-store-navigation .language-switcher .country-img {
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+  border: 2px solid #fff;
+  object-fit: cover;
+}
+.multy-store-site-header .multy-store-header .multy-store-navigation .language-switcher .country-img:hover {
+  border: 2px solid #f1c40f;
+  transition: all 0.3s ease-in-out;
+}
+
+.multy-store-banner-section-wrapper {
+  width: 100%;
+}
+.multy-store-banner-section-wrapper .multy-store-bg-item {
+  width: 100%;
+}
+.multy-store-banner-section-wrapper .multy-store-bg-item .multy-bg-img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(40%);
+}
+.multy-store-banner-section-wrapper .multy-store-bg-item .multy-store-card-wrapper {
+  position: absolute;
+  top: 20rem;
+  left: 20rem;
+  height: 60%;
+  width: 27%;
+  background-color: rgba(0, 0, 0, 0.966);
+  clip-path: polygon(70% 0, 100% 38%, 100% 100%, 0 100%, 0 0);
+}
+.multy-store-banner-section-wrapper .multy-store-bg-item .multy-store-card-wrapper .card-text-wrap {
+  display: grid;
+  margin-top: 6rem;
+  padding: 4rem;
+}
+.multy-store-banner-section-wrapper .multy-store-bg-item .multy-store-card-wrapper .card-text {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding-bottom: 1.5rem;
+}
+.multy-store-banner-section-wrapper .multy-store-bg-item .multy-store-card-wrapper .big-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #fff;
+  text-transform: uppercase;
+}
+.multy-store-banner-section-wrapper .multy-store-bg-item .multy-store-card-wrapper .line {
+  width: 40px;
+  height: 10px;
+  background-color: yellow;
+  margin-top: 2rem;
+}
+.multy-store-banner-section-wrapper .multy-store-bg-item .multy-store-card-wrapper .paragraph {
+  margin-top: 3rem;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+}
+.multy-store-banner-section-wrapper .multy-store-bg-item .multy-store-card-wrapper .next-arrow {
+  float: right;
+}
+.multy-store-banner-section-wrapper .multy-store-bg-item .multy-store-card-wrapper .fa-arrow-right {
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 1rem 6rem;
+}
+.multy-store-banner-section-wrapper .slick-dots {
+  position: absolute;
+  left: 70rem;
+  bottom: 2rem;
+  display: flex;
+}
+.multy-store-banner-section-wrapper .slick-dots li {
+  list-style: none;
+  display: inline-flex;
+  margin: 0 3px;
+}
+.multy-store-banner-section-wrapper .slick-dots li button {
+  width: 1.3rem;
+  height: 3rem;
+  cursor: pointer;
+  color: transparent;
+  background-color: white;
+  border: none;
+  outline: none;
+  transition: height 0.5s ease-in-out;
+}
+.multy-store-banner-section-wrapper .slick-dots li.slick-active button {
+  background-color: #eef10c;
+  height: 4rem;
+}
+
+.multy-store-about-container {
+  height: 70rem;
+  width: 100%;
+  background-color: #ecf0f1;
+  position: relative;
+}
+.multy-store-about-container .multy-store-about-section-wrapper {
+  width: 30%;
+  height: 30%;
+  position: absolute;
+  background-color: #fff;
+  top: 10rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
